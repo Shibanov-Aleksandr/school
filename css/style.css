@@ -29,4 +29,18 @@
 }
 .lessons-item {
   flex-basis: calc((100% - 60px) / 3);
+  border: 2px dashed aqua;
+  gap: 10px;
+}
+.subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-style: 28px;
+}
+.link {
+  font-size: 28px;
+  color: blue;
 }
